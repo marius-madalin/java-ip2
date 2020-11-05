@@ -25,8 +25,8 @@ steps:
       echo Starting the build
       mvn -B -DskipTests clean package
     displayName: 'Build with Maven'
-  steps:
-  - task: ShellScript@2
-    inputs:
-      scriptPath: '/scripts/deliver.sh'
+    steps:
+    - task: ShellScript@2
+      inputs:
+        scriptPath: '/scripts/deliver.sh'
 
