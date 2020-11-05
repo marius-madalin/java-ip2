@@ -5,12 +5,11 @@
 
 trigger:
 - master
+  vmImage: 'ubuntu-latest'
 
 stages:
 - stage: DEV
-  vmImage: 'ubuntu-latest'
 
-  steps:
   - task: Maven@3
     inputs:
       mavenPomFile: 'pom.xml'
