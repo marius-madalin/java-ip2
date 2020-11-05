@@ -10,10 +10,9 @@ trigger:
 stages:
 - stage: DEV
   jobs:
-  job: A
-  steps:
+  job: 
     vmImage: 'ubuntu-latest'
-  - task: Maven@3
+    Maven@3
     inputs:
       mavenPomFile: 'pom.xml'
       mavenOptions: '-Xmx3072m'
