@@ -26,7 +26,4 @@ steps:
     mvn -B -DskipTests clean package
   displayName: 'Build with Maven'
 
-- task: ShellScript@2
-  inputs:
-    scriptPath: 'scripts/deliver.sh'
 
