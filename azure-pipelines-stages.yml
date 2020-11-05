@@ -9,7 +9,7 @@ trigger:
 
 stages:
 - stage: DEV
-
+  jobs:
   - task: Maven@3
     inputs:
       mavenPomFile: 'pom.xml'
