@@ -12,7 +12,6 @@ stages:
   jobs:
   job: 
     vmImage: 'ubuntu-latest'
-  job:
     Maven@3
     inputs:
       mavenPomFile: 'pom.xml'
