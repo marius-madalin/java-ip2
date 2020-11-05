@@ -13,7 +13,7 @@ stages:
   job: 
     vmImage: 'ubuntu-latest'
     Maven@3
-    inputs:
+ 
       mavenPomFile: 'pom.xml'
       mavenOptions: '-Xmx3072m'
       javaHomeOption: 'JDKVersion'
